@@ -15,10 +15,10 @@ Datatype sono i tipi di dati che possiamo trovare in JavaScript i principali son
 
 1. String sono valori testuali chiusi tra apici (preferibilmente doppi, esempio " Prova "")
 2. Number sono valori numerici
-3. Boolean sono valore true o false
+3. Boolean sono valori o true o false
 4. Undefined è una proprietà che indica che una variabile non ha un valore assegnato oppure non è affatto definita 
 5. Null  valore che rappresenta un valore vuoto o sconosciuto
-6. 
+
 
 
 
@@ -92,3 +92,5 @@ let name1 = "john"
 let name2 = "John"
 
 console.log(name1 !== name2)
+
+console.log(name1.toLocaleLowerCase() === name2.toLocaleLowerCase())
